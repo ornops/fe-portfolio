@@ -1,13 +1,23 @@
 .about-section{
     display: flex;
+    background-color: #B4B0AB;
 }
 .about-left-section{
+    display: flex;
+    flex-direction: column;
     width: 50%;
 }
 .about-right-section{
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
 }
 .about-right-section img{
-    width: 80%;
-    height: 80%;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 80%;
+    margin-right: 20px;
+    
 }
