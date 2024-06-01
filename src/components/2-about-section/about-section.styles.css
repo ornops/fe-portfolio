@@ -1,0 +1,13 @@
+.about-section{
+    display: flex;
+}
+.about-left-section{
+    width: 50%;
+}
+.about-right-section{
+    width: 50%;
+}
+.about-right-section img{
+    width: 80%;
+    height: 80%;
+}
