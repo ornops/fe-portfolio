@@ -17,6 +17,7 @@ const ExperienceSection = () =>{
                     </div>
                     <div className="experience-job-details">
                         <p>- Build Wordpress sites based on client specifications</p>
+                        <p>- Handled fullstack operations to develop website for clients, following specifications.</p>
                     </div>
                 </div>
 
@@ -41,6 +42,7 @@ const ExperienceSection = () =>{
                     </div>
                     <div className="experience-job-details">
                         <p>- Executed manual and automated testing to accurately identify bugs</p>
+                        <p>- Check that the product is compliant with reglementations and design plans.</p>
                     </div>
                 </div>
 
