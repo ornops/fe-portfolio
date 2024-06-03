@@ -2,11 +2,44 @@
     display: flex;
     background-color: #B4B0AB;
 }
+
+
+
+/* LEFT SECTION */
 .about-left-section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
 }
+.about-left-section .text-content-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 3vh;
+}
+.about-left-section .text-content-container h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 7vh;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #343434;
+}
+.about-left-section .text-content-container p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 3vh;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #343434;
+}
+/* RIGHT SECTION */
 .about-right-section{
     width: 50%;
     display: flex;
