@@ -1,0 +1,68 @@
+.experience-section{
+    display: flex;
+}
+
+/* LEFT SECTION */
+.experience-section .experience-left-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.experience-section .experience-left-section h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 7vh;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color : #343434;
+    width: 70%;
+}
+
+/* RIGHT SECTION */
+.experience-section .experience-right-section{
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    /* align-items: center; */
+    justify-content: center;
+    width: 50%;
+}
+.experience-section .experience-right-section .individual-experience-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.experience-section .experience-right-section .individual-experience-container .experience-position p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 4vh;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color : #343434;
+}
+.experience-section .experience-right-section .individual-experience-container .experience-company-name p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 3vh;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color : #343434;
+}
+.experience-section .experience-right-section .individual-experience-container .experience-job-details p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color : #343434;
+}
