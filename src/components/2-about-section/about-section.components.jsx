@@ -8,9 +8,10 @@ const AboutSection = () =>{
             <div className="about-left-section">
                 <div className="text-content-container">
                 <h1>About Me</h1>
-                <p>I am a diligent Frontend Web Developer with years of experience in business applications. 
-                    I'm eager to join your crew to build out-of-the-box solutions for regional clients. 
-                    I am skilled in developing plans, managing projects, and user documentation.</p>
+                <p>Welcome to my corner of the digital universe! I'm Joshua Ornopia, a dedicated frontend developer with a knack for crafting visually stunning and user-friendly web applications. 
+                    With years of hands-on experience in frontend development, I thrive on the creative challenge of turning concepts into interactive digital solutions that captivate audiences and drive engagement. 
+                    I also have more than 6 years experience as a Software QA Engineer.
+                    Accomplished Quality Engineer skilled in leading testing practices in fast-paced commercial environments.</p>
                 </div>
                 
             </div>
