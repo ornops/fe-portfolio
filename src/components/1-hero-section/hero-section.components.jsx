@@ -11,7 +11,8 @@ const HeroSection = () =>{
             <div className="right-side-container">
                 <h1 className='my-name'>Joshua Ornopia</h1>
                 <div className="position-title">Frontend Engineer | QA Engineer</div>
-                <button className="contact-button">Reach Out</button>
+                <a href='#contact-section'><button className="contact-button" href>Reach Out</button></a>
+                
 
             </div>
         </div>
