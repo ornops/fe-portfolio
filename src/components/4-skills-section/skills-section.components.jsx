@@ -17,8 +17,8 @@ const SkillsSection = () =>{
             <div className="skills-right-section">
                 <div className="frontend-skills skills-category-holder">
                     <p className='dev-skills-header'>DEVELOPMENT</p>
-                    <p className='skills-list'>- HTML5</p>
-                    <p className='skills-list'>- CSS3</p>
+                    <p className='skills-list'>- HTML</p>
+                    <p className='skills-list'>- CSS</p>
                     <p className='skills-list'>- Javascript</p>
                     <p className='skills-list'>- React.js</p>
                     <p className='skills-list'>- SASS</p>
