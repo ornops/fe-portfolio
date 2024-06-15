@@ -24,7 +24,7 @@ const SampleSection = () =>{
                         <a href="https://ornops.github.io/react-functional-component/" target="_blank" rel="noopener noreferrer">
                         <img src={WorkSample2} alt="worksample1" />
                         <div className="sample-description">
-                            <p>React Search Bar</p>
+                            <p>REST API in React.js</p>
                         </div>
                         </a>
                     </div>
