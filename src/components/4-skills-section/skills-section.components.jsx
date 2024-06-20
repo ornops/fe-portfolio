@@ -1,13 +1,14 @@
 import './skills-section.styles.css'
 import SkillsImage from '../../assets/skills-image.jpg'
+import TypeWriter from '../typewriter'
 
 const SkillsSection = () =>{
 
     return(
         <div className="section-container skills-section">
             <div className="skills-left-section">
-                <p className='skills-section-header'>Skills & </p>
-                <p className='skills-section-header'>Proficiencies</p>
+                <p className='skills-section-header'><TypeWriter words="Skills & Proficiencies" myClass="skills-section-header"/> </p>
+                
                 
                 <div className="skills-image-container">
                     <img src={SkillsImage} alt="skillsImage"/>

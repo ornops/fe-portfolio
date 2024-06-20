@@ -2,13 +2,14 @@ import './sample-section.styles.css'
 import WorkSample1 from '../../assets/sample-work-1.png'
 import WorkSample2 from '../../assets/sample-work-2.png'
 import WorkSample3 from '../../assets/sample-work-3.png'
+import TypeWriter from '../typewriter'
 
 const SampleSection = () =>{
 
     return(
         <div className="section-container sample-section">
             <div className="sample-works-header">
-                <p>Sample Works</p>
+                <p><TypeWriter words="Sample Works" myClass="sample-works-header"/></p>
             </div>
             <div className="image-gallery">
                 

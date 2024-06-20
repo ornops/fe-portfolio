@@ -1,5 +1,6 @@
 import './about-section.styles.css'
 import AboutImage from '../../assets/about-image.jpg'
+import TypeWriter from '../typewriter'
 
 const AboutSection = () =>{
 
@@ -7,7 +8,7 @@ const AboutSection = () =>{
         <div className="section-container about-section">
             <div className="about-left-section">
                 <div className="text-content-container">
-                <h1>About Me</h1>
+                <h1><TypeWriter words="About Me" /></h1>
                 <p>Welcome to my corner of the Digital Universe!</p> 
                     <p>I'm Joshua Ornopia, a dedicated Frontend Web Developer with a knack for crafting visually stunning and user-friendly web applications. 
                     With years of hands-on experience in frontend development</p>

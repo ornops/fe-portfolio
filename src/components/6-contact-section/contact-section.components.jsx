@@ -3,6 +3,7 @@ import ContactImage from '../../assets/contact-image.jpg';
 import InstagramIcon from '../../assets/instagram-icon.png'
 import GithubIcon from '../../assets/github-icon.png'
 import LinkedinIcon from '../../assets/linkedin-icon.png'
+import TypeWriter from '../typewriter'
 
 const ContactSection = () =>{
 
@@ -16,7 +17,7 @@ const ContactSection = () =>{
             </div>
             <div className="contact-right-section">
                 <div className="contact-header">
-                    <p>Reach Out</p>
+                    <p><TypeWriter words="Reach Out" myClass="contact-header"/></p>
                 </div>
                 <div className="contact-details">
                     <p>Joshua Ornopia</p>

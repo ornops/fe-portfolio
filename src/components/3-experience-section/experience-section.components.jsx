@@ -1,11 +1,12 @@
 import './experience-section.styles.css'
+import TypeWriter from '../typewriter'
 
 const ExperienceSection = () =>{
 
     return(
         <div className="section-container experience-section">
             <div className="experience-left-section">
-                <h1>Experience & Education</h1>
+                <h1><TypeWriter words="Experience & Education" /></h1>
             </div>
             <div className="experience-right-section">
                 <div className="individual-experience-container">
