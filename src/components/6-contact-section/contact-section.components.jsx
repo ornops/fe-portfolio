@@ -30,9 +30,9 @@ const ContactSection = () =>{
                     <a href="https://github.com/ornops" target="_blank" rel="noopener noreferrer">
                         <img src={GithubIcon} alt="GithubIcon" />
                     </a>
-                    <a href="https://www.instagram.com/joswamiswa/" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://www.instagram.com/joswamiswa/" target="_blank" rel="noopener noreferrer">
                         <img src={InstagramIcon} alt="InstagramIcon" />
-                    </a>
+                    </a> */}
                     
                 </div>
             </div>
