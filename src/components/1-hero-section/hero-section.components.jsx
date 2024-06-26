@@ -15,7 +15,7 @@ const HeroSection = () =>{
                 <TypeWriter words="Joshua Ornopia" myClass="my-name"/>
                 </h1>
                 <div>
-                    <TypeWriter words="Frontend Engineer | QA Engineer" myClass="position-title"/>
+                    <TypeWriter words="React Developer | QA Engineer" myClass="position-title"/>
                 </div>
                 <a href='#contact-section'><button className="contact-button" href>Reach Out</button></a>
                 
