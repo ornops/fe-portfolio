@@ -4,41 +4,42 @@ import WorkSample2 from '../../assets/sample-work-2.png'
 import WorkSample3 from '../../assets/sample-work-3.png'
 import TypeWriter from '../typewriter'
 
-const SampleSection = () =>{
+const SampleSection = () => {
 
-    return(
+    return (
         <div className="section-container sample-section">
             <div className="sample-works-header">
-                <p><TypeWriter words="Sample Works" myClass="sample-works-header"/></p>
+                <p><TypeWriter words="Sample Works" myClass="sample-works-header" /></p>
             </div>
             <div className="image-gallery">
-                
-                    <div className="individual-sample-container">
-                        <a href="https://ornops.github.io/react-apologia-website/" target="_blank" rel="noopener noreferrer">
+
+                <div className="individual-sample-container">
+                    <a href="https://ornops.github.io/react-apologia-website/" target="_blank" rel="noopener noreferrer">
                         <img src={WorkSample1} alt="worksample1" />
                         <div className="sample-description">
                             <p>Church Website</p>
                         </div>
-                        </a>
-                    </div>
-                    <div className="individual-sample-container">
-                        <a href="https://ornops.github.io/react-functional-component/" target="_blank" rel="noopener noreferrer">
-                        <img src={WorkSample2} alt="worksample1" />
-                        <div className="sample-description">
-                            <p>REST API in React.js</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div className="individual-sample-container">
-                        <a href="https://ornops.github.io/space-invader-javascript/" target="_blank" rel="noopener noreferrer">
+                    </a>
+                </div>
+                <div className="individual-sample-container">
+                    <a href="https://ornops.github.io/eunice-portfolio-website/" target="_blank" rel="noopener noreferrer">
                         <img src={WorkSample3} alt="worksample1" />
                         <div className="sample-description">
-                            <p>Space Invaders</p>
+                            <p>Client Portfolio Website</p>
                         </div>
-                        </a>
-                    </div>
-    
-                    {/* <div className="individual-sample-container">
+                    </a>
+                </div>
+                <div className="individual-sample-container">
+                    <a href="https://ornops.github.io/react-functional-component/" target="_blank" rel="noopener noreferrer">
+                        <img src={WorkSample2} alt="worksample1" />
+                        <div className="sample-description">
+                            <p>API Fetching</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                {/* <div className="individual-sample-container">
                         <img src={WorkSample2} alt="worksample2" />
                         <div className="sample-description">
                             <p>Monsters Academy</p>
@@ -51,7 +52,7 @@ const SampleSection = () =>{
                         <p>Space Invader Game</p>
                     </div>
                 </div> */}
-                
+
             </div>
         </div>
     )
