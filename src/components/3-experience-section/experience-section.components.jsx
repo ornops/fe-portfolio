@@ -1,9 +1,9 @@
 import './experience-section.styles.css'
 import TypeWriter from '../typewriter'
 
-const ExperienceSection = () =>{
+const ExperienceSection = () => {
 
-    return(
+    return (
         <div className="section-container experience-section">
             <div className="experience-left-section">
                 <h1><TypeWriter words="Experience & Education" /></h1>
@@ -22,7 +22,7 @@ const ExperienceSection = () =>{
                     </div>
                 </div>
 
-                <div className="individual-experience-container">
+                {/* <div className="individual-experience-container">
                     <div className="experience-position">
                         <p>SOFTWARE FRONTEND ENGINEER</p>
                     </div>
@@ -32,7 +32,7 @@ const ExperienceSection = () =>{
                     <div className="experience-job-details">
                         <p>- Created Web and Mobile Applications.</p>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="individual-experience-container">
                     <div className="experience-position">
